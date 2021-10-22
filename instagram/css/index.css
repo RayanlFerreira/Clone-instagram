@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap%27');
+
 body{
     display: flex;
-    flex-direction: column;
     background-color: #f9f6f6;
+    font-family: roboto,sans-serif;
 }
 
 header{
@@ -37,6 +39,7 @@ footer{
 main{
     margin-left: auto;
     margin-right: auto;
+    max-width: 500px;
 }
 
 .container-post{
