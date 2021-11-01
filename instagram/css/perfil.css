@@ -6,14 +6,14 @@ body{
     background-color: #f9f6f6;
     font-family: roboto,sans-serif;
 }
-
+   
 header{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     height: 44px;
-    min-height: 44px;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -109,7 +109,7 @@ footer{
     left: 0;
     right: 0;
     height: 44px;
-    min-height: 44px;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
